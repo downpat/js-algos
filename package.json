@@ -1,0 +1,22 @@
+{
+  "name": "js-algos",
+  "version": "0.0.1",
+  "description": "A collection of Javascript algos",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downpat/js-algos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/downpat/js-algos/issues"
+  },
+  "homepage": "https://github.com/downpat/js-algos#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
