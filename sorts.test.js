@@ -15,7 +15,7 @@ sortAlgos.forEach((algo) => {
   test(`ensures ${algo.name} sorts correctly`, () => {
     //Create random arrays of integers, one big, one small
     let unsortedSmall = randArray(10, 100)
-    let unsortedBig = randArray(100, 10000000)
+    let unsortedBig = randArray(10000, 10000000)
     
     //Log the algorithm to the console in action
     console.log(`Small unsorted start: ${unsortedSmall}`)
