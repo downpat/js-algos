@@ -5,6 +5,9 @@
  * sort described in CLRS chapter 2.1
  *
  * nums - an unsorted array of integers
+ * 
+ * returns a sorted array of integers
+ *
  */
 function insertionSort(nums) {
   for(let j = 1; j < nums.length; j++) {
@@ -15,7 +18,6 @@ function insertionSort(nums) {
       i = i - 1
     }
     nums[i + 1] = key
-    console.log(nums)
   }
 
   return nums
