@@ -1,10 +1,12 @@
-const iSort = require('./insertion.sort')
+const mergeSort = require('./merge.sort')
 
-let arr = [21, 6, 9, 15, 3, 11, 17]
+let unsorted = [3, 1, 15, 11, 4, 9, 12, 16, 6]
 
 function sandbox() {
-  iSort(arr)
-  console.log(arr)
+  mergeSort(unsorted)
+  console.log(unsorted)
 }
+
+sandbox()
 
 module.exports = sandbox
