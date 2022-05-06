@@ -6,8 +6,9 @@ const cpA = utils.cpA
 
 //Require sort algos
 const sortAlgos = [
-  require('./jslib.sort'),
   require('./insertion.sort'),
+  require('./jslib.sort'),
+  require('./merge2.sort'),
   require('./selection.sort')
 ]
 

@@ -141,4 +141,4 @@ function mergeSort(nums, stIdx, endIdx) {
   }
 }
 
-module.exports = mergeSort
+module.exports = merge

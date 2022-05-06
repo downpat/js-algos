@@ -1,10 +1,16 @@
-const mergeSort = require('./merge.sort')
+const merge = require('./merge.sort')
+const mergeSort2 = require('./merge2.sort')
 
-let unsorted = [3, 1, 15, 11, 4, 9, 12, 16, 6]
+let sortedTwoInOne = [3, 4, 7, 9, 2, 3, 6, 10, 11]
+
+let sortedOne = [3, 4, 7, 9]
+let sortedTwo = [2, 3, 6, 10, 11]
+
+let unsorted = [15, 6, 31, 3, 3, 4, 1, 2, 18, 15, 18, 9]
 
 function sandbox() {
-  mergeSort(unsorted)
-  console.log(unsorted)
+  let sorted = mergeSort2(unsorted)
+  console.log(`MergeSort 2 Results: ${sorted}`)
 }
 
 sandbox()
